@@ -6,7 +6,7 @@
 }
 
 /* Header */
-.container {
+.container-header {
   display: flex;  
   padding: 30px;
   background-color: #ADD8E6;
@@ -45,7 +45,6 @@
 }
 
 /* First Wrapper */
-
 .first-wrapper{
   display: flex;
   background-color: #00008B;
@@ -61,13 +60,127 @@
 }
 
 /* Second Wrapper */
+.second-wrapper{
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+.second-container{
+  display: flex;
+  width: 80%;
+}
+
+.second-box-blu{
+  background-color: #1E90FF;
+  width: 65%;
+  height: 390px;
+  margin: 70px auto;
+  border: 2px dashed black;
+
+}
+
+.second-box-pink{
+  background-color: #FFC0CB;
+  width: 65%;
+  height: 390px;
+  margin: 70px auto;
+  border: 2px dashed black;
+}
 
 /* Third Wrapper */
+.third-wrapper{
+  display: flex;
+  background-color: #D3D3D3;
+  justify-content: center;
+}
+
+.third-box-pink{
+
+}
+
+.third-box-blu{
+
+}
 
 /* Fourth Wrapper */
+.fourth-wrapper{
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+.fourth-box-blu{
+
+}
+
+.fourth-box-pink{
+
+}
 
 /* Fifth Wrapper */
+.fifth-wrapper{
+  display: flex;
+  background-color: #D3D3D3;
+  justify-content: center;
+}
+
+.fifth-box-green{
+  background-color: #228B22;
+  width: 80%;
+  height: 80%;
+  margin: 70px auto;
+  border: 2px dashed black;
+
+}
 
 /* Sixth Wrapper */
+.sixth-wrapper{
+  display: flex;
+  background-color: #23272A;
+  justify-content: center;
+}
+
+.sixth-box-pink{
+
+}
+
+.sixth-box-blu2{
+
+}
+
+.sixth-box-blu3{
+
+}
+
+.sixth-box-blu4{
+
+}
+
+.sixth-box-blu5{
+
+}
+
+
 
 /* Footer Wrapper */
+.footer-wrapper{
+  display: flex;
+  background-color: #00008B;
+  justify-content: center;
+}
+
+.footer-box{
+
+}
+
+.footer-logo{
+
+}
+
+.footer-button{
+
+}
+
+
+
