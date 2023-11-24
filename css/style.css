@@ -165,24 +165,31 @@
   justify-content: center;
 }
 
+.sixth-container{
+  display: flex;
+  width: 80%;
+}
+
 .sixth-box-pink{
   background-color: #F08080;
-  width: 32%;
   height: 390px;
   margin-top: 10px;
   margin-bottom: 40px;
   border: 1px dashed black;
+  flex-grow: 1;
 }
 
 .sixth-container-blu{
-  display: flex;  
+  display: flex;
+  width: 25%;  
   margin-top: 10px;
   margin-bottom: 40px;
+  flex-grow: 1;
 }
 
 .sixth-box-blu{
   background-color: #20B2AA ;
-  width: 100px;
+  width: 25%;
   height: 390px;
   border: 1px dashed white;
 }
