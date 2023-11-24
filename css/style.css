@@ -14,11 +14,11 @@
 }
 
 .header {
-  background-color: #DAA520;
   display: flex;
-  width: 70%;
+  height: 32px;
+  background-color: #DAA520;
+  flex-basis: 80% ;
   justify-content: space-between;
-  min-height: 30px;
   align-items: center;
 }
 
@@ -31,9 +31,9 @@
 
 .link {
   color: black;
+  padding: 0 15px;
   text-align: center;
   text-decoration: none;
-  margin: 20px
 }
 
 .header-logo {
@@ -42,4 +42,21 @@
 
 .header-login {
   align-items: flex-end;
+}
+
+/* First Wrapper */
+
+.first-wrapper{
+  display: flex;
+  background-color: #00008B;
+  justify-content: center;
+}
+
+.first-pink{
+  background-color: #EE82EE;
+  width: 65%;
+  height: 390px;
+  margin: 70px auto;
+  border: 2px dashed black;
+
 }
