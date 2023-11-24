@@ -1,0 +1,45 @@
+/* Generics Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.container {
+  display: flex;  
+  padding: 30px;
+  background-color: #ADD8E6;
+  justify-content: center;
+}
+
+.header {
+  background-color: #DAA520;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  min-height: 30px;
+  align-items: center;
+}
+
+.header-link {
+  display: flex;
+  min-width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px
+}
+
+.header-logo {
+  align-items: flex-start;
+}
+
+.header-login {
+  align-items: flex-end;
+}
