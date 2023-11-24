@@ -55,7 +55,7 @@
   background-color: #EE82EE;
   width: 65%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 }
 
@@ -75,7 +75,7 @@
   background-color: #1E90FF;
   width: 60%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 
 }
@@ -84,7 +84,7 @@
   background-color: #FFC0CB;
   width: 40%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 }
 
@@ -104,7 +104,7 @@
   background-color: #FFC0CB;
   width: 40%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 }
 
@@ -112,7 +112,7 @@
   background-color: #1E90FF;
   width: 60%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 }
 
@@ -132,7 +132,7 @@
   background-color: #1E90FF;
   width: 60%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 }
 
@@ -140,7 +140,7 @@
   background-color: #FFC0CB;
   width: 40%;
   height: 390px;
-  margin: 70px auto;
+  margin: 40px auto;
   border: 1px dashed black;
 
 }
@@ -156,8 +156,8 @@
   background-color: #228B22;
   width: 80%;
   height: 1000px;
-  margin: 70px auto;
-  border: 2px dashed black;
+  margin: 40px auto;
+  border: 1px dashed black;
 
 }
 
@@ -169,44 +169,59 @@
 }
 
 .sixth-box-pink{
-
+  background-color: #F08080;
+  width: 32%;
+  height: 390px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: 1px dashed black;
 }
 
-.sixth-box-blu2{
-
+.sixth-container-blu{
+  display: flex;  
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
-.sixth-box-blu3{
-
+.sixth-box-blu{
+  background-color: #20B2AA ;
+  width: 100px;
+  height: 390px;
+  border: 1px dashed white;
 }
 
-.sixth-box-blu4{
-
+hr{
+  border: 1px solid grey;
 }
-
-.sixth-box-blu5{
-
-}
-
-
 
 /* Footer Wrapper */
 .footer-wrapper{
   display: flex;
-  background-color: #00008B;
+  flex-direction: column;
+  background-color: #23272A;
   justify-content: center;
+  align-items: center;
 }
 
 .footer-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7FFFD4;
+  width: 80%;
+  height: 55px;
+  margin-top: 10px;
 
 }
 
 .footer-logo{
-
+  background-color: #F08080;
+  border: 1px dashed black;
 }
 
 .footer-button{
-
+  background-color: #F08080;
+  border: 1px dashed black;
 }
 
 
