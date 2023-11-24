@@ -56,7 +56,7 @@
   width: 65%;
   height: 390px;
   margin: 70px auto;
-  border: 2px dashed black;
+  border: 1px dashed black;
 }
 
 /* Second Wrapper */
@@ -73,19 +73,19 @@
 
 .second-box-blu{
   background-color: #1E90FF;
-  width: 65%;
+  width: 60%;
   height: 390px;
   margin: 70px auto;
-  border: 2px dashed black;
+  border: 1px dashed black;
 
 }
 
 .second-box-pink{
   background-color: #FFC0CB;
-  width: 65%;
+  width: 40%;
   height: 390px;
   margin: 70px auto;
-  border: 2px dashed black;
+  border: 1px dashed black;
 }
 
 /* Third Wrapper */
@@ -95,12 +95,25 @@
   justify-content: center;
 }
 
-.third-box-pink{
+.third-container{
+  display: flex;
+  width: 80%;
+}
 
+.third-box-pink{
+  background-color: #FFC0CB;
+  width: 40%;
+  height: 390px;
+  margin: 70px auto;
+  border: 1px dashed black;
 }
 
 .third-box-blu{
-
+  background-color: #1E90FF;
+  width: 60%;
+  height: 390px;
+  margin: 70px auto;
+  border: 1px dashed black;
 }
 
 /* Fourth Wrapper */
@@ -110,11 +123,25 @@
   justify-content: center;
 }
 
-.fourth-box-blu{
+.fourth-container{
+  display: flex;
+  width: 80%;
+}
 
+.fourth-box-blu{
+  background-color: #1E90FF;
+  width: 60%;
+  height: 390px;
+  margin: 70px auto;
+  border: 1px dashed black;
 }
 
 .fourth-box-pink{
+  background-color: #FFC0CB;
+  width: 40%;
+  height: 390px;
+  margin: 70px auto;
+  border: 1px dashed black;
 
 }
 
@@ -128,7 +155,7 @@
 .fifth-box-green{
   background-color: #228B22;
   width: 80%;
-  height: 80%;
+  height: 1000px;
   margin: 70px auto;
   border: 2px dashed black;
 
